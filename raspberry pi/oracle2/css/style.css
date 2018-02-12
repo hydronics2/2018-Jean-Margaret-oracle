@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'guru';
+  src: url("../css/guru.woff") format('woff');;
+}
+
+body {
+  background-color: black;
+  overflow: hidden;
+  height: 30em;
+  font-family: 'guru';
+  font-weight: bold;
+  /* font-size: 80px; */
+}
+
+h1 {
+  font-size: 5em;
+  color: #006400;
+  line-height: 1.1;
+
+  position: absolute;               /* 2 */
+   top: 40%;                         /* 3 */
+   transform: translate(0, -50%);
+   text-align: center;
+   width: 100%
+
+}
+
+span {
+  border-right: .05em solid;
+  /* animation: caret 1s steps(1) infinite; */
+  animation: caret 3s steps(44) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}

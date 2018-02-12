@@ -15,7 +15,7 @@
 
 # Run browser after boot to desktop
 /bin/sleep 3
-sudo -u pi chromium-browser --kiosk --incognito /home/pi/PCM/raspberry_pi/cash_register/index.html &
+sudo -u pi chromium-browser --kiosk --incognito /home/pi/oracle1/index.html &
 # End of script
 
 
